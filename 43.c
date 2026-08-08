@@ -5,14 +5,14 @@ int main()
 int i,j;
 for(i=1;i<=5;i++)
 {
-	char ch='a';
+	char ch='E';
 	for(j=1;j<=5;j++)
 	{
-		if(j==6-i||j==i)
-			printf("%c",ch;
+		if(i==1||i==5||j==1||j==5)
+			printf("%c",ch);
 		else
 			printf(" ");
-			num++;	
+				ch=ch-1;
 			
 			}
 	
