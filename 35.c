@@ -8,7 +8,7 @@ for(i=1;i<=5;i++)
 	char ch='A';
 	for(j=1;j<=5;j++)
 	{
-		if(j==6-i||j==i)
+		if(j==6-i&&j==i)
 			printf("%c",ch);
 		else
 			printf(" ");
