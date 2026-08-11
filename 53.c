@@ -12,8 +12,7 @@ for(i=1;i<=5;i++)
 			printf("%c",ch);
 		else
 			printf(" ");
-			ch=ch-1;
-			
+			ch=ch-1;			
 			}
 	
 printf("\n");
