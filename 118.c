@@ -16,7 +16,7 @@ for(i=0;i<=10;i++)
 		
 
 		if(j<=2+i&&j>=i){
-			printf("%d",num);ch=ch-1;}
+			printf("%c",ch);ch=ch-1;}
 
 
 		
